@@ -14,8 +14,8 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `nome` varchar(220) NOT NULL,
   `email` varchar(520) NOT NULL,
   `senha` varchar(50) NOT NULL,
-  `situacoe_id` int(11) NOT NULL DEFAULT '0',
-  `niveis_acesso_id` int(11) NOT NULL,
+  `situacao_id` varchar(10) NOT NULL,
+  `niveis_acesso_id` varchar(10) NOT NULL,
   `created` datetime NOT NULL,
   `modified` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `situacoe_id`, `niveis_acesso_id`, `created`, `modified`) VALUES
-(1, 'Pedro', 'pedro@pedro.com', '123', 1, 1, '2016-02-20 20:49:02', NULL);
+(1, 'Pedro', 'pedro@pedro.com', '202cb962ac59075b964b07152d234b70', 'ativo', 'adm', '2016-02-20 20:49:02', NULL);
 
 
 -- --------------------------------------------------------

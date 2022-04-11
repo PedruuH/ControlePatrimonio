@@ -33,7 +33,7 @@
       </div>
       <div class="row">
       <div class="col-md-12">
-        <form class="form-horizontal" method="post" action="processa/proc_cad_gerente.php">
+        <form class="form-horizontal" method="post" action="processa/proc_cad_usuario.php">
           <div class="form-group">
             <label  class="col-sm-2 control-label">Nome</label>
             <div class="col-sm-10">
@@ -44,7 +44,7 @@
           <div class="form-group">
             <label  class="col-sm-2 control-label">Email</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" name="email" placeholder="email">
+            <input type="email" name="email" id="inputEmail" class="form-control" placeholder="E-mail" required autofocus>
             </div>
           </div>
 
@@ -58,7 +58,7 @@
           <div class="form-group">
             <label name="" class="col-sm-2 control-label">Senha</label>
             <div class="col-sm-10">
-              <input type="" class="form-control" name="id_cargo" placeholder="senha">
+              <input type="password" class="form-control" name="senha" placeholder="senha">
             </div>
           </div>
 

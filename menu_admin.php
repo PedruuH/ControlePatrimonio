@@ -30,7 +30,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuário<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="cad_usuario.php">Cadastrar</a></li>
-            <li><a href="listar_gerentes.php">Alterar</a></li>
+            <li><a href="alterar_usuario.php">Alterar</a></li>
           </ul>
         </li>
         <li><a text-right href="sair.php">Sair</a></li>
