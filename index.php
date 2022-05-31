@@ -37,7 +37,7 @@
   <body class="text-center">
     <div class="container">
       <form class="form-signin" method="POST" action="valida.php">
-        <img src=img/adufu.png »/>
+        <img src=img/adufu1.png »/>
 				<h3>Controle de Patrimônio</h3>
         <label for="inputEmail" class="sr-only">Email</label>
         <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>

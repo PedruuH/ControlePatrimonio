@@ -20,12 +20,10 @@
 			$_SESSION['usuarioNome'] = $resultado['nome'];
 			$_SESSION['usuarioNiveisAcessoId'] = $resultado['niveis_acesso_id'];
 			$_SESSION['usuarioEmail'] = $resultado['email'];
-			if($_SESSION['usuarioNiveisAcessoId'] == "1"){
+			if($_SESSION['usuarioNiveisAcessoId'] == "adm"){
 				header("Location: administrativo.php");
-			}elseif($_SESSION['usuarioNiveisAcessoId'] == "2"){
+			}elseif($_SESSION['usuarioNiveisAcessoId'] == "fun"){
 				header("Location: colaborador.php");
-			}else{
-				header("Location: cliente.php");
 			}
 		//Não foi encontrado um usuario na tabela usuário com os mesmos dados digitado no formulário
 		//redireciona o usuario para a página de login

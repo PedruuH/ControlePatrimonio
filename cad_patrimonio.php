@@ -51,28 +51,37 @@
           <div class="form-group">
             <label  class="col-sm-2 control-label">Preço</label>
             <div class="col-sm-10">
-              <input type="" class="form-control" name="preco" placeholder="sexo">
+              <input type="number" class="form-control" name="preco" placeholder="Preço">
             </div>
           </div>
 
           <div class="form-group">
-            <label  class="col-sm-2 control-label">ID Situação</label>
+            <label  class="col-sm-2 control-label">Serial Number</label>
             <div class="col-sm-10">
-              <input type="" class="form-control" name="id_situacao" placeholder="ID Situação">
+              <input type="" class="form-control" name="s_number" placeholder="S/N">
+            </div>
+          </div>
+          <div class="form-group">
+            <label  class="col-sm-2 control-label">Nota Fiscal</label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" name="nf_number" placeholder="Nota Fiscal">
             </div>
           </div>
 
           <div class="form-group">
-            <label  class="col-sm-2 control-label">ID Departamento</label>
+            <label  class="col-sm-2 control-label">Departamento</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" name="id_departamento" placeholder="ID Departamento">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label name="" class="col-sm-2 control-label">ID Gerente</label>
-            <div class="col-sm-10">
-              <input type="" class="form-control" name="id_gerente" placeholder="ID Gerente">
+              <select name="departamento">
+                <option value="">Selecione</option>
+                <option value="M">Recepção</option>
+                <option value="F">Tesouraria</option>
+                <option value="F">Comunicação</option>
+                <option value="F">Diretoria</option>
+                <option value="F">Júridico</option>
+                <option value="F">Plano de Saúde</option>
+                <option value="F">Tesouraria</option>
+                <option value="F">Backup</option>
+              </select>
             </div>
           </div>
 
@@ -81,7 +90,9 @@
             <div class="col-sm-10">
               <input type="" class="form-control" name="descricao" placeholder="Descrição">
             </div>
-          </div>
+          </div>   
+
+          
 
           <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">

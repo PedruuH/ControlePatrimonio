@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,6 +24,8 @@
 
   <body>
 <?php
+  
+  require "verifica.php";  
   include_once("menu_admin.php")
  ?>
 
@@ -40,6 +42,8 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
     <script src="assets/js/docs.min.js"></script>
+      
+    <!-- <img src=img/adufu.png »/> -->
 
   </body>
 </html>

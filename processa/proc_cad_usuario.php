@@ -10,7 +10,7 @@ $senha = md5($_POST["senha"]);
 $hoje = date('Y/m/d i:H');
 
 $sql = "INSERT INTO `usuarios` ( `nome`, `email`, `senha`, `situacoe_id`, `niveis_acesso_id`, `created`, `modified`) VALUES
-('$nome', '$email', '$senha', 1, '$niveis_acesso_id', '$hoje', NULL)";
+('$nome', '$email', '$senha', 'ativo', '$niveis_acesso_id', '$hoje', NULL)";
 
 
 $resultado = $conn->query($sql);

@@ -13,13 +13,6 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gerentes<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="cad_gerente.php">Cadastrar</a></li>
-            <li><a href="listar_gerentes.php">Listar</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patrimônio<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="cad_patrimonio.php">Cadastrar</a></li>

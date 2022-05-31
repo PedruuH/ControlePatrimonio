@@ -51,7 +51,11 @@
           <div class="form-group">
             <label name="" class="col-sm-2 control-label">Nível acesso</label>
             <div class="col-sm-10">
-              <input type="" class="form-control" name="id_cargo" placeholder="1 ADM, 2 Funcionário">
+              <select name="nivel_acesso">
+                <option value="">Selecione</option>
+                <option value="1">Adm</option>
+                <option value="2">Funcionário</option>
+              </select>
             </div>
           </div>
 
